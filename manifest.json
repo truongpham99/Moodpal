@@ -10,5 +10,5 @@
 		"default_title": "Moodpal"	
 	},
 	"manifest_version": 2,
-	"permission":
+	"permission":{}
 }
