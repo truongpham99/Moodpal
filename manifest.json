@@ -2,13 +2,16 @@
 	"name": "Moodpal",
 	"version": "1.0",
 	"description": "A mood tracker",
-	"background":{
-		"scripts":["background.js"],
-		"persistent": false	
-	},
 	"browser_action":{
 		"default_title": "Moodpal"	
 	},
-	"manifest_version": 2,
-	"permission":{}
+	"background":{
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions":[
+		"tabs"
+		"https://www.facebook.com/*"
+	],
+	"manifest_version": 2
 }
