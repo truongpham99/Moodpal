@@ -10,7 +10,7 @@
 		"persistent": false
 	},
 	"permissions":[
-		"tabs"
+		"tabs",
 		"https://www.facebook.com/*"
 	],
 	"manifest_version": 2
