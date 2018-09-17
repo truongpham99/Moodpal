@@ -1,1 +1,1 @@
-A mood traker
+A mood traker extension using LSTM.
