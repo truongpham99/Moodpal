@@ -1,6 +1,6 @@
 window.fbAsyncInit = function() {
       FB.init({
-        appId            : 'hdfclaealnbpfceflclfpgdgejadibke',
+        appId            : '',
         autoLogAppEvents : true,
         xfbml            : true,
         version          : 'v2.10'
@@ -53,8 +53,8 @@ authenticateWithFacebook = () => {
 }
 
 
-var token = "EAAAAUaZA8jlABAHX2qhiF3sfuEIhrG2eLeh0v67yOXZCAX5mocbcNN0iYrQW2srT2fSSUTNRfLfeM9gN5AOwdeBwgiyVn2Wp3prjhQnqFhE9Omq7ICT9GtCROZCdgj92AH7kQM8ZBH12payyAWwsEhRIxWGBwgSvdGbkJkk6lgZDZD";
-var user = "330464170854626";
+var token = "";
+var user = "";
 var url = "data:text/html;charset=utf8,";
 
 var form = document.createElement('form');
